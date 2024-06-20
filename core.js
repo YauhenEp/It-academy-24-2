@@ -12,3 +12,7 @@ function minus() {
 function multiply() {
   return 2 * 3;
 }
+
+function divide() {
+  return 6 / 3;
+}
