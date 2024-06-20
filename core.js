@@ -9,3 +9,6 @@ function add() {
 function minus() {
   return 3 - 2;
 }
+function multiply() {
+  return 2 * 3;
+}
