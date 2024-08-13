@@ -1,0 +1,19 @@
+{
+  "name": "lesson_14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:report": "mocha --reporter mochawesome --timeout 4000",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "mochawesome": "^7.1.3"
+  }
+}
