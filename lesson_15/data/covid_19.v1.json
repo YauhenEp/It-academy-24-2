@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "country": {
+        "type": "string"
+      },
+      "code": {
+        "type": "string"
+      },
+      "confirmed": {
+        "type": "number"
+      },
+      "recovered": {
+        "type": "number"
+      },
+      "critical": {
+        "type": "number"
+      },
+      "deaths": {
+        "type": "number"
+      },
+      "latitude": {},
+      "longitude": {},
+      "lastChange": {
+        "type": "string"
+      },
+      "lastUpdate": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "country",
+      "code",
+      "confirmed",
+      "recovered",
+      "critical",
+      "deaths",
+      "latitude",
+      "longitude",
+      "lastChange",
+      "lastUpdate"
+    ]
+  }
+}

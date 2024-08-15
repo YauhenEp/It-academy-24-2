@@ -1,0 +1,97 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "total": {
+          "type": "integer"
+        },
+        "count": {
+          "type": "integer"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "urn": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "template": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              },
+              "object": {
+                "type": "object"
+              },
+              "author": {
+                "type": "object",
+                "properties": {
+                  "fullName": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  },
+                  "username": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string"
+                  }
+                }
+              },
+              "socialActivityCountsInsight": {
+                "type": "object",
+                "properties": {
+                  "numComments": {
+                    "type": "integer"
+                  },
+                  "likeCount": {
+                    "type": "integer"
+                  },
+                  "appreciationCount": {
+                    "type": "integer"
+                  },
+                  "empathyCount": {
+                    "type": "integer"
+                  },
+                  "InterestCount": {
+                    "type": "integer"
+                  },
+                  "praiseCount": {
+                    "type": "integer"
+                  },
+                  "funnyCount": {
+                    "type": "integer"
+                  },
+                  "maybeCount": {
+                    "type": "integer"
+                  },
+                  "totalReactionCount": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
