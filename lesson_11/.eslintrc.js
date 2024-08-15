@@ -23,6 +23,7 @@ module.exports = {
   root: true,
   rules: {
     'no-restricted-syntax': 0,
+    'ban-ts-comment': 0,
     'no-await-in-loop': 'off',
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
