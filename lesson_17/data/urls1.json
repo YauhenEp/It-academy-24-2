@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "baseUrl": "https://www.dev.onliner.by/",
+    "securityUrl": "https://www.dev.security.onliner.by/"
+  },
+  "qa": {
+    "baseUrl": "https://www.qa.onliner.by/",
+    "securityUrl": "https://www.qa.security.onliner.by/"
+  },
+  "stage": {
+    "baseUrl": "https://www.stage.onliner.by/",
+    "securityUrl": "https://www.stage.security.onliner.by/"
+  },
+  "prod": {
+    "baseUrl": "https://www.onliner.by/",
+    "securityUrl": "https://www.security.onliner.by/"
+  },
+}

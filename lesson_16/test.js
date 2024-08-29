@@ -2,7 +2,6 @@ const {Builder, By, until} = require('selenium-webdriver');
 
 (async function() {
   const browser = new Builder().forBrowser('chrome').build();
-
   await browser.get('https://www.onliner.by/');
   const enterButton = await browser.findElement(By.css('.auth-bar__item.auth-bar__item--text'));
   await enterButton.click();

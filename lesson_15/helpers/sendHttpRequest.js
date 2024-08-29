@@ -24,4 +24,4 @@ async function sendHttpRequest(params, httpMethod = 'GET', statusCode, testTimeo
   return response;
 }
 
-module.exports = { sendHttpRequest }
+module.exports = { sendHttpRequest };

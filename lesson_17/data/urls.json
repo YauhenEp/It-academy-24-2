@@ -1,0 +1,6 @@
+{
+  "dev": "https://www.dev.onliner.by/",
+  "qa": "https://www.qa.onliner.by/",
+  "stage": "https://www.stage.onliner.by/",
+  "prod": "https://www.onliner.by/"
+}
